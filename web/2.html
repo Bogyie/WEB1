@@ -3,38 +3,72 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>CSS란 무엇인가?</title>
+    <style>
+        h1 {
+            text-align: center;
+            background: transparent;
+            margin-top: 0px;
+        }
+    </style>
+    
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SG6CE1MSTJ"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0TJPQEND5Q"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-SG6CE1MSTJ');
+      gtag('config', 'G-0TJPQEND5Q');
     </script>
 </head>
 
 <body>
-    <h1><a href="index.html">WEB 김보경</a></h1>
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%;max-width:25%;">
+        <ol>
+            <li><a href="1.html" title="HTML이란 무엇인가?">HTML</a></li>
+            <li><a href="2.html" title="CSS란 무엇인가?">CSS</a></li>
+            <li><a href="3.html" title="JavaScript란 무엇인가?">JavaScript</a></li>
+            <li><a href="chat.html" title="Chatting">Chatting</a></li>
+        </ol>
+    </div>
 
-    <ol>
-        <li><a href="1.html" title="HTML이란 무엇인가?">HTML</a></li>
-        <li><a href="2.html" title="CSS란 무엇인가?">CSS</a></li>
-        <li><a href="3.html" title="JavaScript란 무엇인가?">JavaScript</a></li>
-    </ol>
+    <div style="margin-left:30%;margin-right:10%;">
+        <h1><a href="index.html">WEB 김보경</a></h1>
+        <h1>CSS란 무엇인가?</h1>
 
-    <h2>CSS란 무엇인가?</h2>
-
-    <p style="margin-top: 40px;">
-        Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
-        written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside
-        HTML and JavaScript.[2] CSS is designed to enable the separation of presentation and content, including layout,
-        colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in
-        the specification of presentation characteristics; enable multiple web pages to share formatting by specifying
-        the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content
-    </p>
+        <p style="margin-top: 40px;">
+            Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
+            written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside
+            HTML and JavaScript.[2] CSS is designed to enable the separation of presentation and content, including layout,
+            colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in
+            the specification of presentation characteristics; enable multiple web pages to share formatting by specifying
+            the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content
+        </p>
+        
+        <h2>Comment</h2>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://boggy-tk.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </body>
 
 </html>
